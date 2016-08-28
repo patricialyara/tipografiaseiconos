@@ -1,0 +1,56 @@
+body{
+	font-family: 'Baloo Chettan', 'Sans Serif';
+	text-align: center;
+}
+
+h1{
+	font-size: 20px;
+}
+h4,p {
+	font-size: 14px;
+}
+
+.caja{
+	width: 200px;
+	height: 250px;
+	padding: 30px 10px;	
+	background-color: #C2BDBD;
+	float: left;
+	margin: 10px 1px;	
+}
+
+span{
+	font-size: 50px;
+	color:#AF0C0C;	
+}
+
+.caja:hover{	
+	width: 240px;
+	height: 315px;
+	background-color: #E5F1F3;
+	padding: 10px;
+	margin-top: 3px;
+	transition: 1s;		
+}
+
+.caja:hover span{
+	font-size: 80px;	
+	color: #E46767;
+	transition: font-size 1s, color 1s;
+}
+
+.caja:hover h1{
+	font-size: 25px;
+	color: #1D97D6;
+	transition: 1s;
+}
+
+.caja:hover h4{
+	color: #1D97D6;
+	transition: color 1s;
+}
+
+.caja:hover p{
+	color: #1D97D6;
+	transition: color 1s;
+}
